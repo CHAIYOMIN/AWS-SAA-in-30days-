@@ -1,4 +1,4 @@
-# FIrst Day of SAA studying
+# AWS SAA First Book tutorial
 
 ## Studying resources
 
@@ -60,7 +60,21 @@ multiple regions and AZ can design for more usable architecture.
   - records every ENI(Elastic Network Interface)
 - Direct Connect and Direct Connect Gateway
   - Direct Connect Gateway for multi AWS account or VPC
-  - AWS Transit Gateway multi VPC and unpremised network 
+  - AWS Transit Gateway multi VPC and unpremised network
+
+### Chapter3 Networking and Content Delivery 
+#### CloudFont
+
+Amazon CloudFront is a CDN(Contents Delivery Network) service that caches static contents(Html, css , image or videos).
+
+- backend server(original server)(ELB EC2 S3 static hosting)
+- Distribution
+  - download distribution -> delivery from http & https t0 html css
+  - streaming distribution -> RTMP(Real Time Messaging Protocol) not recommanded after 2020/12/31
+  - caches rule
+
+#### Route 53
+ 
 ### First Class Design resilient Architecture
 
 ![Elastic Block Store](image/2022-04-25First.png)
